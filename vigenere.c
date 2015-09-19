@@ -45,7 +45,7 @@ void spin(char chr[], int index)
 		}
 	}
 	
-	// case of ciphering a letter between
+	// case of ciphering a letter between a-z
 	else if (chr[0] >= 97 && chr[0] <= 122)
 	{	
 		// sanitizing to preferred 0-25 range				
